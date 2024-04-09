@@ -11,7 +11,7 @@ export default function AnnouncementList({ }: Props) {
     const announcementList = useSelector(announcementListSelector);
 
     return (
-        <div className="p-4 border-2 border-gray-200 border-solid rounded-lg border-airbnb-gray max-w-[1280px] xl:min-w-[1280px]">
+        <div className="p-4 border-2 border-gray-200 border-solid rounded-lg border-airbnb-gray xl:min-w-[1000px] xl:max-w-[1000px] 2xl:min-w-[1280px]">
             <div>Announce</div>
             <div className="max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4">
                 <div className=" pt-4 flex flex-col gap-4 overflow-x-auto">
